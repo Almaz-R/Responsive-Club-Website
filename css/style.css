@@ -1,0 +1,271 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(165, 177, 153, 0.897);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 163, 163);
+    height: auto;
+    text-align: right;
+    position: fixed;
+    border-bottom: solid 1px #302e2e;
+    width: 100%;
+    z-index: 100;
+}
+
+nav a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: rgb(206, 218, 218);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li:hover {
+    color: rgb(44, 149, 241);
+}
+
+/*Logo*/
+.logo {
+    background-image: url(../resources/camera1.jpg);
+    background-size:cover;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: Inspiration;
+    font-size: 13rem;
+    letter-spacing: 2.7rem;
+    text-align: center;
+    color: white;
+}
+
+
+/*About*/
+#about {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-family:  Shadows Into Light;
+    letter-spacing: 4px;
+    font-size: 4.5rem;
+}
+
+.about_img1 {
+    margin: 30px;
+    max-height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 3px 3px rgb(59, 59, 59);
+}
+
+.about_text {
+    color: #2c2a2a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+
+/*Ivents*/
+#ivents {
+    display: flex;
+    flex-direction: column;
+}   
+
+
+.container1 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.image1, .image2, .image3, .image4 {
+    max-height: 290px;
+    max-width: 400px;
+    box-shadow: 0px 0px 3px 3px rgb(59, 59, 59);
+}
+
+a {
+    color: #221f1f;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #726f6f;
+    text-decoration: none;
+}
+
+.ivents {
+  margin: 10px;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/*Master Class*/
+#master_class {
+    display: flex;
+    flex-direction: column;
+  
+}
+.container2 {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.landscape, .portrait, .macro, .night, .animals {
+    margin: 20px;
+    max-width: 370px;
+    max-height: 340px;
+    background-color: rgb(245, 238, 238);
+    border-radius: 2px;
+    box-shadow: 0px 0px 3px 3px rgb(59, 59, 59);
+}
+
+.landscape_img, .portrait_img, .macro_img, .night_img, .animals_img {
+    margin: 5px;
+    max-height: 300px;
+    max-width: 360px;
+}
+
+figcaption {
+    margin: 7px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/*Membership*/
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership_image {
+    margin-top: 30px;
+    max-height: 250px;
+    max-width: auto;
+    box-shadow: 0px 0px 3px 3px rgb(59, 59, 59);
+}
+
+.membership_text {
+    margin: 30px;
+    padding: 0;
+    color: #5e5c5c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*Footer*/
+footer {
+    margin: 0;
+    padding-top: 4px;
+    background-color: rgb(24, 163, 163);
+    color: rgb(233, 227, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: solid 1px #302e2e;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 780px) {
+   nav li {
+    display: block;
+  }
+   header {
+    text-align: center;
+  }
+
+   .logo {
+    font-size: 8rem;
+    letter-spacing: 1.3rem;
+    margin-top: 120px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about_text {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container2 {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .membership_image {
+    max-height: auto;
+    max-width: 70%;
+  }
+
+  h2 {
+    letter-spacing: 2px;
+    font-size: 3rem;
+  }
+  
+}
